@@ -31,8 +31,8 @@ titles_from_headings:
   collections: true
   
 header_pages:
-  - resume.html
-  - archive.html
+  - resume.md
+  - archive.md
 
 defaults:
   - scope:

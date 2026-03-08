@@ -23,4 +23,5 @@ light and dark mode.
 ### Elsewhere
 
 - GitHub: [EmetOverman](https://github.com/EmetOverman)
+- Twitter: [EmOverman](https://x.com/EmOverman)
 - RSS: [Subscribe to the feed]({{ '/feed.xml' | relative_url }})

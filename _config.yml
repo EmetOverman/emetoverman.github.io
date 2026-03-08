@@ -2,17 +2,17 @@ name: Emet Overman
 title: Emet Overman
 lang: en-US
 
-lightavatar: /assets/images/light_bauhaus_logo.png
-darkavatar: /assets/images/dark_bauhaus_logo.png
+lightavatar: /assets/images/emoverman-e-mark.svg
+darkavatar: /assets/images/emoverman-e-mark.svg
 
-tagline: Notes on software, projects, and things worth building carefully.
+tagline: "IQ too high, altruism too effective, time preference too low, circle too expanded"
 description: Personal website and writing archive for Emet Overman, built with Jekyll and adapted from the brutalist-blog theme.
 
 url: https://emetoverman.github.io
 baseurl: ""
 
 author: Emet Overman
-logo: /assets/images/light_bauhaus_logo.png
+logo: /assets/images/emoverman-e-mark.svg
 google_analytics:
 
 permalink: /:year/:month/:day/:title/
@@ -25,7 +25,7 @@ footer-links:
   instagram:
   linkedin:
   rss: enabled
-  twitter:
+  twitter: EmOverman
 
 plugins:
   - jekyll-feed

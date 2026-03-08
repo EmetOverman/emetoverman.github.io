@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<section class="intro">
+  <h1 class="intro-title">{{ site.title }}</h1>
+  <p class="fs-4 intro-copy">{{ site.tagline }}</p>
+  <p class="intro-copy">
+    A lightweight GitHub Pages site for writing, project notes, and durable
+    links.
+  </p>
+</section>
+
+{% if site.posts.size > 0 %}
+<div class="archive">
+  {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
+  if currDate != date %}
+  <h2 class="archive-year">{{ currDate }}</h2>
+  {% assign date = currDate %} {% endif %}
+  <div class="archive-item">
+    <span class="post-date archive-date fs-4"
+      >{{ post.date | date: "%B %d, %Y" }}</span
+    >
+    <a href="{{ post.url | relative_url }}" class="archive-title fs-4"
+      >{{ post.title }}</a
+    >
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<p>No posts yet.</p>
+{% endif %}

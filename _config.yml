@@ -1,0 +1,45 @@
+name: Emet Overman
+title: Emet Overman
+lang: en-US
+
+lightavatar: /assets/images/light_bauhaus_logo.png
+darkavatar: /assets/images/dark_bauhaus_logo.png
+
+tagline: Notes on software, projects, and things worth building carefully.
+description: Personal website and writing archive for Emet Overman, built with Jekyll and adapted from the brutalist-blog theme.
+
+url: https://emetoverman.github.io
+baseurl: ""
+
+author: Emet Overman
+logo: /assets/images/light_bauhaus_logo.png
+google_analytics:
+
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+
+footer-links:
+  email:
+  facebook:
+  github: EmetOverman
+  instagram:
+  linkedin:
+  rss: enabled
+  twitter:
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author: Emet Overman
+
+exclude:
+  - README.md
+  - vendor
+  - .bundle
